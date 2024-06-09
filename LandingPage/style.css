@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.sec1{
+    background-color: red;
+    min-height: 100vh;
+    background: url(developer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textcon{
+    color: greenyellow;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 90px;
+    font-size:25px;
+    font-weight: 500;
+}
+.sec2{
+    height: 180px;
+    position: relative;
+    background-color: orange;
+}
+.sec2 h2{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sec3{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(web.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.skills{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    gap:49vw;
+    transform: translate(-50%,-50%);
+}
+li{
+    font-size: 70px;
+    font-weight: 300;
+    color:Black;
+}
+.sec4{
+    background-color:orange;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+.con{
+    width:50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: ani 5s linear 0s infinite ;
+
+}
+@keyframes ani {
+    to{
+        transform: rotate(20deg);
+    }
+    
+}
+.abo{
+    width:50%;
+    padding: 30px;
+}
+.con h2{
+    font-size: 30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.sec5{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.sec5 h1{
+    font-size: 50px;
+}
